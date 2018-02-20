@@ -75,7 +75,6 @@ const validateScore = (score, player, diller) => {
         }
         createLog(player.state, diller.state);
         cleanStatus(player, diller);
-        console.log(diller)
     }
 }
 
