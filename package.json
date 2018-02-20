@@ -1,0 +1,18 @@
+{
+  "name": "blackJack",
+  "version": "1.0.0",
+  "description": "Implementing console variation of the famous card's game - BlackJack",
+  "main": "blackJack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vsevolod Krupenko",
+  "license": "ISC",
+  "dependencies": {
+    "unirest": "^0.5.1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "testJack": "./blackJack.js"
+  }
+}
